@@ -103,8 +103,8 @@ const perguntas = [
      {
           pergunta: "Qual é o Rei da Horta?",
           respostas: [
-               {text:"O Rei-Polho", correct: true},
                {text:"O tomate", correct: false},
+               {text:"O Rei-Polho", correct: true},
                {text:"O Maboque", correct: false},
                {text:"Uma Horta só tem Rainha", correct: false}
           ]
@@ -113,9 +113,9 @@ const perguntas = [
      {
           pergunta: "O que se coloca numa torradeira?",
           respostas: [
-               {text:"Pão", correct: true},
                {text:"Bife", correct: false},
                {text:"Torrada", correct: false},
+               {text:"Pão", correct: true},
                {text:"Carvão", correct: false}
           ]
 
@@ -123,18 +123,18 @@ const perguntas = [
      {
           pergunta: "O pai da Joana tem 5 filhas, a Segunda, a Terça, a Quarta e a Quinta, qual o nome da quinta?",
           respostas: [
-               {text:"Joana", correct: true},
                {text:"Sexta", correct: false},
                {text:"Penta", correct: false},
-               {text:"Lurdes", correct: false}
+               {text:"Lurdes", correct: false},
+               {text:"Joana", correct: true}
           ]
 
      },
      {
           pergunta: "Quantas vezes é possível dobrar ao meio um folha de papel de tamanho A4?",
           respostas: [
-               {text:"1", correct: true},
                {text:"4", correct: false},
+               {text:"1", correct: true},
                {text:"7", correct: false},
                {text:"2", correct: false}
           ]
@@ -143,19 +143,19 @@ const perguntas = [
      {
           pergunta: "Existem 6 maças em cima de uma mesa e tu tiras 4, com quantas ficas?",
           respostas: [
-               {text:"4", correct: true},
                {text:"10", correct: false},
                {text:"2", correct: false},
-               {text:"6", correct: false}
+               {text:"6", correct: false},
+               {text:"4", correct: true}
           ]
 
      },
      {
           pergunta: "Estão 8 pessoas sentadas num sofá, 3 pernas partem e 6 pessoas saem. Quantas pernas restam?",
           respostas: [
-               {text:"5", correct: true},
                {text:"4", correct: false},
                {text:"1", correct: false},
+               {text:"5", correct: true},
                {text:"6", correct: false}
           ]
 
@@ -173,10 +173,10 @@ const perguntas = [
      {
           pergunta: "Quantas vezes é possível subtrair 10 a 100?",
           respostas: [
-               {text:"1", correct: true},
                {text:"9", correct: false},
                {text:"6", correct: false},
-               {text:"10", correct: false}
+               {text:"10", correct: false},
+               {text:"1", correct: true}
           ]
 
      },
@@ -203,10 +203,10 @@ const perguntas = [
      {
           pergunta: "Segundo as leis da física, qual o nome da força de atracção que existe entre objectos com massa (como partículas planetas e outros objectos cósmicos)?",
           respostas: [
-               {text:"Gravidade", correct: true},
                {text:"Amor", correct: false},
                {text:"Força nuclear fraca", correct: false},
-               {text:"Força nuclear forte", correct: false}
+               {text:"Força nuclear forte", correct: false},
+               {text:"Gravidade", correct: true}
           ]
 
      },
@@ -223,9 +223,9 @@ const perguntas = [
      {
           pergunta: "O que é que é mais pesado, 100kg de ferro ou 100 kg de algodão?",
           respostas: [
-               {text:"Ambos pesam o mesmo", correct: true},
                {text:"O ferro", correct: false},
                {text:"O algodão", correct: false},
+               {text:"Ambos pesam o mesmo", correct: true},
                {text:"Nenhuma dos dois", correct: false}
           ]
 
